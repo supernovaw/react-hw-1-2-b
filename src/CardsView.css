@@ -1,0 +1,55 @@
+.CardsView {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ShopCard {
+  width: 250px;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.ShopCard .item-name {
+  text-transform: uppercase;
+}
+
+.ShopCard .item-color {
+  font-size: 80%;
+}
+
+.ShopCard img {
+  width: 150px;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.ShopCard .item-price {
+  color: #d53e2d;
+  display: inline-block;
+}
+
+.ShopCard .item-add-button {
+  text-transform: uppercase;
+  user-select: none;
+  border: 1px solid black;
+  border-radius: 2em;
+  transition: 150ms;
+
+  display: inline-block;
+  font-size: 75%;
+  flex-grow: 0;
+  margin-left: 1em;
+  padding: 0.5em;
+  padding-inline: 1em;
+}
+
+.ShopCard .item-add-button:hover {
+  color: white;
+  background-color: black;
+}

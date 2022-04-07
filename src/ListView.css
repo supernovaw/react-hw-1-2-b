@@ -1,0 +1,53 @@
+.ShopItem {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.ShopItem img {
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.ShopItem div {
+  display: inline-block;
+  vertical-align: middle;
+  flex-grow: 1;
+}
+
+.ShopItem .item-name {
+  margin-left: 50px;
+  width: 250px;
+  text-align: left;
+  flex-grow: 1.2;
+  text-transform: uppercase;
+}
+
+.ShopItem .item-color {
+  font-size: 80%;
+  width: 200px;
+}
+
+.ShopItem .item-price {
+  color: #d53e2d;
+}
+
+.ShopItem .item-add-button {
+  text-transform: uppercase;
+  user-select: none;
+  border: 1px solid black;
+  border-radius: 2em;
+  transition: 150ms;
+
+  margin-right: 20px;
+  font-size: 75%;
+  flex-grow: 0;
+  padding: 0.5em;
+  padding-inline: 1em;
+}
+
+.ShopItem .item-add-button:hover {
+  color: white;
+  background-color: black;
+}
